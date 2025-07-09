@@ -1,0 +1,21 @@
+#img1{
+  width: 100px;
+  width: 200px;
+  padding: 5%;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.url-card{
+  width: 200px;
+}
+
+.url-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.div{
+  margin:2% 2% 2% 2%;
+}

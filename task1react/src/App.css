@@ -1,0 +1,614 @@
+/* expenses css starts here   */
+ body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f3f2f7, #e0dfe4);
+  color: #333;
+}
+
+.expense-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  background-color:liner-gradient(to right, #d9a7c7,#fffcdc);
+  font-family: sans-serif;
+  background-color: #cac6d3;
+}
+
+
+.expense-form-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 10px;
+  background-color: #d9a7c7;
+}
+
+.expense-form-card label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.expense-form-card input,
+.expense-form-card textarea {
+  padding: 10px;
+  border: 2px solid #269bb2;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+  transition: all 0.3s ease;
+  background-color: #fdfdfd;
+}
+
+.expense-form-card input:focus,
+.expense-form-card textarea:focus {
+  border-color: #7f56d9;
+  box-shadow: 0 0 0 2px rgba(127, 86, 217, 0.2);
+}
+
+.expense-form-card button {
+ background-color: #958fa4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease;
+}
+
+
+.expense-form-card button:hover {
+  background-color: #c20f8c;
+  background: linear-gradient(to right, #7f759d, #321856);
+  transform: translateY(-2px);
+}  
+
+.expense-form-card h1{
+  font-size:40px;
+  text-align: center;
+  margin-bottom: 10px;
+  color:#7f56d9
+}
+
+.me-auto {
+  gap: 10px;
+}
+.expenses{
+    padding: 11px;
+    border:2px solid #269bb2  ;
+}
+.expense-form-card .expenses:focus{
+  border-color: #7f56d9;
+  box-shadow: 0 0 0 2px rgba(127, 86, 217, 0.2);
+}
+
+
+
+@media (max-width:600px){
+  .employee-form-card{
+    padding: 30px 20px;
+    width: 100%;
+  }
+} 
+
+ body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f3f2f7, #e0dfe4);
+  color: #333;
+ }
+
+.ticket-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+  height: 100%;
+  background-color:liner-gradient(to right, #d9a7c7,#fffcdc);
+  font-family: sans-serif;
+  background-color: #cac6d3;
+}
+.ticket-form-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 10px;
+  background-color: #d9a7c7;
+}
+.tikcet-form-card label {
+   font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+.ticket-form-card input,
+.ticket-form-card textarea {
+  padding: 10px;
+  border: 2px solid #269bb2;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+  transition: all 0.3s ease;
+  background-color: #fdfdfd;
+}
+.ticket-form-card input:focus,
+.ticket-form-card textarea:focus {
+  border-color: #7f56d9;
+  box-shadow: 0 0 0 2px rgba(127, 86, 217, 0.2);
+}
+.ticket-form-card button {
+  margin-top: 10px;
+  background-color: #958fa4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0,2s ease;
+}
+.ticket-form-card button:hover {
+     background-color: #c20f8c;
+  background: linear-gradient(to right, #7f759d, #321856);
+  transform: translateY(-2px);
+} 
+.ticket-form-card h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #4a148c;
+}
+.status{
+  border: 2px solid #269bb2;
+  padding: 11px;
+}
+.ticket-form-card .status:focus {
+  border-color: #7f56d9;
+  box-shadow: 0 0 0 2px rgba(127, 86, 217, 0.2);
+}
+.issue {
+  padding: 11px;
+  border: 2px solid #269bb2;
+}
+.ticket-form-card .issue:focus {
+  border-color: #5826c4;
+  box-shadow: 0 0 0 2px rgba(127, 86, 217, 0.2);
+}
+
+@media (max-width:600px){
+  .employee-form-card{
+    padding: 30px 20px;
+    width: 100%;
+  }
+} 
+
+
+
+
+
+ body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f3f2f7, #e0dfe4);
+  color: #333;
+}
+
+.employee-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+  height: 100%;
+  background-color:liner-gradient(to right, #d9a7c7,#fffcdc);
+  font-family: sans-serif;
+  background-color: #cac6d3;
+}
+.employee-form-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 10px;
+  background-color: #d9a7c7;
+}
+
+.employee-form-card label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.employee-form-card input,
+.employee-form-card textarea {
+  padding: 10px;
+  border: 2px solid #1c81a3;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+  transition: all 0.3s ease;
+  background-color: #fdfdfd;
+}
+
+.employee-form-card input:focus,
+.employee-form-card textarea:focus {
+  border-color: #7f56d9;
+  box-shadow: 0 0 0 2px rgba(127, 86, 217, 0.2);
+}
+
+.employee-form-card button {
+  margin-top: 10px;
+  background-color: #958fa4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0,2s ease;
+}
+
+.employee-form-card button:hover {
+   background-color: #c20f8c;
+  background: linear-gradient(to right, #7f759d, #321856);
+  transform: translateY(-2px);
+}
+.employee-form-container h1{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: hsl(267, 75%, 31%);
+}
+.designation {
+  padding: 11px;
+  border: 2px solid #1c81a3;
+}
+.employee-form-card .designation:focus{
+    border-color: #7f56d9;
+  box-shadow: 0 0 0 2px rgba(127, 86, 217, 0.2);
+}
+
+
+@media (max-width:600px){
+  .employee-form-card{
+    padding: 30px 20px;
+    width: 100%;
+  }
+    .expense-form-card{
+    padding: 30px 20px;
+    width: 100%;
+  }
+    .ticket-form-card{
+    padding: 30px 20px;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffd54f, #ffa000);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ .expense-form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+} 
+
+ .expense-form-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: transform 0.3s ease;
+} 
+
+ .expense-form-card:hover {
+  transform: translateY(-5px);
+} 
+
+
+ .form-group {
+  position: relative;
+  margin-top: 8px;
+} 
+
+ .form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 16px 12px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  font-size: 15px;
+  transition: border 0.3s, background 0.3s;
+} 
+ .form-group input:focus,
+.form-group textarea:focus {
+  border-color: #7f56d9;
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(127, 86, 217, 0.15);
+} 
+
+
+ .form-group label {
+  position: absolute;
+  left: 12px;
+  top: 14px;
+  font-size: 14px;
+  color: #888;
+  background-color: white;
+  padding: 0 4px;
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+} 
+
+
+ .form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+  top: -9px;
+  left: 10px;
+  font-size: 12px;
+  color: #7f56d9;
+} 
+
+
+.expense-form-card button {
+  background: linear-gradient(to right, #7f56d9, #9b6ded);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+} 
+
+ .expense-form-card button:hover {
+  background: linear-gradient(to right, #6b47c8, #8657d6);
+} 
+
+
+ @media (max-width: 480px) {
+  .expense-form-card {
+    padding: 25px 20px;
+  }
+}  */
+
+
